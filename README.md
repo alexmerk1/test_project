@@ -8,36 +8,36 @@
 - Реализованы фильтры по юзеру и по дате создания ( 3.Реализовать фильтры по юзеру и какому-то из существующих в таблице полей ).
 
 ### Установка
-Инструкция: "Как развернуть проект на локальной машине"
+#### Инструкция: "Как развернуть проект на локальной машине"
 
-Клонировать репозиторий и перейти в него в командной строке:
+##### Клонировать репозиторий и перейти в него в командной строке:
 
 git clone https://github.com/alexmerk1/test_project
 cd test_project
 
-Cоздать и активировать виртуальное окружение:
+##### Cоздать и активировать виртуальное окружение:
 
 python3 -m venv venv
 source venv/bin/activate - linux
 source venv/Scripts/activate - Windows
 
-Установить зависимости из файла requirements.txt:
+##### Установить зависимости из файла requirements.txt:
 
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 
-Выполнить миграции:
+##### Выполнить миграции:
 
 python manage.py migrate
 
-Заполнить проект тестовыми данными:
+##### Заполнить проект тестовыми данными:
 
 python manage.py loaddata items_app/fixtures/initial_data.json
 
-Создать суперюзера:
+##### Создать суперюзера:
 
 python manage.py createsuperuser
 
-Запустить проект:
+##### Запустить проект:
 
 python manage.py runserver
