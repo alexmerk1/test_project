@@ -14,13 +14,12 @@
 
 ```
 git clone https://github.com/alexmerk1/test_project
-cd test_project
+cd test_project/test_project/
 ```
 
 ##### Cоздать и активировать виртуальное окружение:
 
 ```
-cd test_project
 python -m venv venv
 source venv/bin/activate - linux
 source venv/Scripts/activate - Windows
