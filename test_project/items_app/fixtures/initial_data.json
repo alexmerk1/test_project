@@ -1,0 +1,117 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "username": "testuser1",
+            "password": "pbkdf2_sha256$150000$...",
+            "is_superuser": false
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "testuser2",
+            "password": "pbkdf2_sha256$150000$...",
+            "is_superuser": false
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "username": "testuser3",
+            "password": "pbkdf2_sha256$150000$...",
+            "is_superuser": false
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "username": "testuser4",
+            "password": "pbkdf2_sha256$150000$...",
+            "is_superuser": false
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "username": "testuser5",
+            "password": "pbkdf2_sha256$150000$...",
+            "is_superuser": false
+        }
+    },
+    {
+        "model": "items_app.item",
+        "pk": 1,
+        "fields": {
+            "title": "test_item_1",
+            "description": "Описание тестового элемента 1",
+            "created_at": "2025-07-25T06:38:22Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "items_app.item",
+        "pk": 2,
+        "fields": {
+            "title": "test_item_2",
+            "description": "Описание тестового элемента 2",
+            "created_at": "2025-07-25T06:38:22Z",
+            "user": 2
+        }
+    },
+    {
+        "model": "items_app.item",
+        "pk": 3,
+        "fields": {
+            "title": "test_item_3",
+            "description": "Описание тестового элемента 3",
+            "created_at": "2025-07-25T06:38:22Z",
+            "user": 3
+        }
+    },
+    {
+        "model": "items_app.item",
+        "pk": 4,
+        "fields": {
+            "title": "test_item_4",
+            "description": "Описание тестового элемента 4",
+            "created_at": "2025-07-25T06:38:22Z",
+            "user": 4
+        }
+    },
+    {
+        "model": "items_app.item",
+        "pk": 5,
+        "fields": {
+            "title": "test_item_5",
+            "description": "Описание тестового элемента 5",
+            "created_at": "2025-07-25T06:38:22Z",
+            "user": 5
+        }
+    },
+    {
+        "model": "items_app.item",
+        "pk": 6,
+        "fields": {
+            "title": "test_item_6",
+            "description": "Описание тестового элемента 6",
+            "created_at": "2025-07-25T06:38:22Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "items_app.item",
+        "pk": 7,
+        "fields": {
+            "title": "test_item",
+            "description": "Описание тестового элемента 6",
+            "created_at": "2025-07-25T06:45:22Z",
+            "user": 1
+        }
+    }
+]
