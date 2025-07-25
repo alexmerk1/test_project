@@ -20,6 +20,7 @@ cd test_project
 ##### Cоздать и активировать виртуальное окружение:
 
 ```
+cd test_project
 python -m venv venv
 source venv/bin/activate - linux
 source venv/Scripts/activate - Windows
