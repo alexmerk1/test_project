@@ -12,32 +12,32 @@
 
 ##### Клонировать репозиторий и перейти в него в командной строке:
 
-git clone https://github.com/alexmerk1/test_project
-cd test_project
+'git clone https://github.com/alexmerk1/test_project'
+'cd test_project'
 
 ##### Cоздать и активировать виртуальное окружение:
 
-python3 -m venv venv
-source venv/bin/activate - linux
-source venv/Scripts/activate - Windows
+'python3 -m venv venv'
+'source venv/bin/activate - linux'
+'source venv/Scripts/activate - Windows'
 
 ##### Установить зависимости из файла requirements.txt:
 
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+'python -m pip install --upgrade pip'
+'pip install -r requirements.txt'
 
 ##### Выполнить миграции:
 
-python manage.py migrate
+'python manage.py migrate'
 
 ##### Заполнить проект тестовыми данными:
 
-python manage.py loaddata items_app/fixtures/initial_data.json
+'python manage.py loaddata items_app/fixtures/initial_data.json'
 
 ##### Создать суперюзера:
 
-python manage.py createsuperuser
+'python manage.py createsuperuser'
 
 ##### Запустить проект:
 
-python manage.py runserver
+'python manage.py runserver'
