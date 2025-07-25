@@ -27,21 +27,36 @@ source venv/Scripts/activate - Windows
 
 ##### Установить зависимости из файла requirements.txt:
 
-'python -m pip install --upgrade pip'
-'pip install -r requirements.txt'
+```
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
 
 ##### Выполнить миграции:
 
-'python manage.py migrate'
+```
+python manage.py migrate
+```
 
 ##### Заполнить проект тестовыми данными:
 
-'python manage.py loaddata items_app/fixtures/initial_data.json'
+```
+python manage.py loaddata items_app/fixtures/initial_data.json
+```
 
 ##### Создать суперюзера:
 
-'python manage.py createsuperuser'
+```
+python manage.py createsuperuser
+```
 
 ##### Запустить проект:
 
-'python manage.py runserver'
+```
+python manage.py runserver
+```
+##### Открыть в браузере админ-панель:
+
+```
+http://127.0.0.1:8000/admin
+```
