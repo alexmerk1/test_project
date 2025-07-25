@@ -48,6 +48,10 @@ python manage.py loaddata items_app/fixtures/initial_data.json
 
 ```
 python manage.py createsuperuser
+Username: - Введите логин
+Email address: - Введите эл.почту
+Password: - Введите пароль
+Password (again): - Повторите пароль
 ```
 
 ##### Запустить проект:
